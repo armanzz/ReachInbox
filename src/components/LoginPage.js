@@ -1,7 +1,7 @@
 import React from 'react';
 
 const LoginPage = () => {
- const redirect = 'https://reachinbox-z9vh.onrender.com/google-login';
+ const redirect = 'https://reachinbox-z9vh.onrender.com/onebox';
 
 const handleLogin = () => {
     window.location.href = `https://hiring.reachinbox.xyz/api/v1/auth/google-login?redirect_to=${redirect}`;
